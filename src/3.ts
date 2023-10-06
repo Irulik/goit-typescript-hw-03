@@ -34,13 +34,13 @@ class Wizard implements ICharacter, ISpellCaster {
   castSpell(): void {
     console.log('Casting a spell, behold my power!');
   }
-
-  
-}
-levelUp(): void {
+  levelUp(): void {
     this.level++;
     console.log(`Level up! New level is ${this.level}`);
-  }
+  }  
+}
+
+
 // тестування класу
 const wizard = new Wizard('Merlin', 15);
 
